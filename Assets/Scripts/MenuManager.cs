@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class MenuManager : MonoBehaviour
 {
     [SerializeField] private InputActionReference _menuAction;
-    [SerializeField] private GameObject _menu;
-    
+    [SerializeField] private GameObject _menu;    
 
     void Start()
     {
